@@ -43,7 +43,6 @@ let pokeDexOne = function(myTrainer)  {
             for ( let j = 0; j < myTrainer.pokemon[i].types.length; j++){
                   let pokeeType = $(`<li class="${myTrainer.pokemon[i].types[j]}">${myTrainer.pokemon[i].types[j]}</li>`);
                 $(newDivTypes ).append(pokeeType);
-                    
             }
                   
                     //   pokeeName = $(``),
